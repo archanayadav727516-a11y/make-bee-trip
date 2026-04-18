@@ -7,6 +7,7 @@ A full-stack travel booking web application where users can explore and book Fli
 .🔗 https://make-bee-trip-wcjt.onrender.com
 
 **_________________________________________________________________________________________________________________________________**
+
 📌 **Features**
 ✈️ Flight booking UI
 🚌 Bus booking UI
@@ -17,11 +18,16 @@ A full-stack travel booking web application where users can explore and book Fli
 🎨 Modern UI design
 
 **________________________________________________________________________________________________________________________________**
+
+
 🛠️ **Tech Stack**
 **Frontend**:React.js CSS Axios
 **Backend:** Node.js,Express.js
 **Database:** MongoDB 
+
 **_________________________________________________________________________________________________________________________________**
+
+
 📁 **Project Structure**
 make-bee-trip/
 │
@@ -36,6 +42,8 @@ make-bee-trip/
 │   └── models/
 │
 └── README.md
+
+
 **________________________________________________________________________________________________________________________________**
 ⚙️ **Installation & Setup**
 1. Clone repo
@@ -51,7 +59,9 @@ npm install
 node server.js
 🔗 **API Endpoint**
 GET /api/hotels
+
 **________________________________________________________________________________________________________________________________**
+
 👨‍💻 **Author**
 Archana
 
