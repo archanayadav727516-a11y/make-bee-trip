@@ -36,8 +36,8 @@ make-bee-trip/
 │
 ├── frontend/
 │   ├── src/
-│   ├── App.js
-│   └── assets/
+│   ├── App.js          
+│   └── assets/              
 │
 ├── backend/
 │   ├── server.js
