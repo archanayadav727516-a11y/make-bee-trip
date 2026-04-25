@@ -7,8 +7,9 @@ function App() {
   const [hotels, setHotels] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/hotels")
-      .then(res => setHotels(res.data));
+    axios.get("https://make-bee-trip-wcjt.onrender.com/api/hotels")
+      .then(res => setHotels(res.data))
+      .catch(err => console.log(err));
   }, []);
 
   return (
@@ -16,25 +17,20 @@ function App() {
 
       {/* Navbar */}
       <nav className="navbar">
-      
+        <img 
+          src={logo} 
+          alt="Make Bee Trip"
+          style={{ maxHeight: "50px", borderRadius:"50%", marginLeft:"10px"}}
+        />
 
-   <img 
-        src={logo} 
-        alt="Make Bee Trip"
-        style={{ maxHeight: "50px", objectFit: "contain" ,borderRadius:"50%",marginLeft:"10px"}}
-        
-      />
         <h1 style={{
           display:"inline-block",
-        top: "50%",
-        // left: "50%",
-        objectFit:"contain",
-        transform: "translate(-210%, -30%)",
-       color:"red",
-      }}>
-        Make Bee Trip
-      </h1>
-     
+          transform: "translate(-210%, -30%)",
+          color:"red",
+        }}>
+          Make Bee Trip
+        </h1>
+
         <div className="nav-links">
           <span>Flights</span>
           <span>Bus</span>
@@ -45,11 +41,8 @@ function App() {
 
       {/* Hero */}
       <div className="hero">
-        <div>
-  
-  <h1 >Explore the World</h1>
+        <h1>Explore the World</h1>
         <p>Book Flights, Bus, Train & Hotels easily</p>
-</div>
       </div>
 
       {/* Services */}
@@ -78,11 +71,7 @@ function App() {
       </div>
 
     </div>
-        
-//     
   );
 }
 
 export default App;
-
-
