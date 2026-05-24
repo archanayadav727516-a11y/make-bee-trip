@@ -69,8 +69,48 @@ function App() {
           ))}
         </div>
       </div>
+     <footer className="footer">
+  <div className="footer-container">
 
+    <div className="footer-box">
+      <h2>Make Bee Trip</h2>
+      <ul>
+        <li>Your trusted</li>
+        <li>travel partner for</li>
+        <li>Flights, Hotels,</li>
+        <li>Bus & Train booking.</li>
+      </ul>
+     
     </div>
+
+    <div className="footer-box">
+      <h3>Quick Links</h3>
+      <ul>
+        <li>Flights</li>
+        <li>Hotels</li>
+        <li>Bus</li>
+        <li>Train</li>
+      </ul>
+    </div>
+
+    <div className="footer-box">
+      <h3>Support</h3>
+      <ul>
+        <li>Help Center</li>
+        <li>Contact Us</li>
+        <li>Privacy Policy</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div className="footer-bottom">
+    <p>© 2026 Make Bee Trip | All Rights Reserved</p>
+  </div>
+</footer>
+
+
+</div>
   );
 }
 
