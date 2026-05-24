@@ -1,4 +1,11 @@
 {
+<<<<<<< HEAD
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}
+=======
   "name": "make-bee-trip",
   "version": "1.0.0",
   "main": "server.js",
@@ -11,3 +18,4 @@
     "express": "^5.2.1"
   }
 }
+>>>>>>> 7b9094cd8f7de962aed7e73fe7e0a028d169725d
